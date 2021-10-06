@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body>
+        {% with messages = get_flashed_messages()%}
+            {}
+        <form method="POST" action="/login">
+            <input type="text" name="campus_id" placeholder="Campus ID">
+            <input type="submit" value="submit">
+
+        </form>
+        <script src="/statics/script.js"></script>
+    </body>
+</html>
